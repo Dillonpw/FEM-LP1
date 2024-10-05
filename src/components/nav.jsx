@@ -8,10 +8,10 @@ export default function Nav() {
   };
 
   return (
-    <nav className="relative flex items-center justify-evenly py-8">
+    <nav className="sm:hidden relative flex items-center justify-between p-8">
       {!isNavOpen && (
         <>
-          <button onClick={toggleNav}>
+          <button onClick={toggleNav} className="">
             <svg width="20" height="14" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M20 12v2H0v-2h20zm0-6v2H0V6h20zm0-6v2H0V0h20z"
@@ -20,9 +20,10 @@ export default function Nav() {
               />
             </svg>
           </button>
-          <a href="/" className="">
+          <a href="/" className="text-3xl text-white">
             room
           </a>
+          <div className="w-4"></div>
         </>
       )}
 
