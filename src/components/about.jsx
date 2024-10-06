@@ -1,12 +1,19 @@
 export default function About() {
   return (
-    <section>
-      <img src="src/images/image-about-dark.jpg" alt="dark furniture" />
-      <div className="m-10">
-        <h2 className="mb-8 text-3xl font-bold sm:text-4xl">
+    <section className="grid grid-cols-1 md:grid-cols-3">
+      <div className="relative h-64 md:h-full">
+        <img
+          src="src/images/image-about-dark.jpg"
+          alt="dark furniture"
+          className="h-full w-full object-cover"
+        />
+      </div>
+
+      <div className="m-8 md:m-10">
+        <h2 className="mb-2 text-lg font-bold uppercase tracking-wider md:mb-2">
           About our furniture
         </h2>
-        <p className="mb-8 text-gray-500">
+        <p className="text-gray-500">
           Our multifunctional collection blends design and function to suit your
           individual taste. Make each room unique, or pick a cohesive theme that
           best express your interests and what inspires you. Find the furniture
@@ -15,7 +22,14 @@ export default function About() {
           dream space.
         </p>
       </div>
-      <img src="src/images/image-about-light.jpg" alt="light furniture" />
+
+      <div className="relative h-64 md:h-full">
+        <img
+          src="src/images/image-about-light.jpg"
+          alt="light furniture"
+          className="h-full w-full object-cover"
+        />
+      </div>
     </section>
   );
 }
