@@ -95,11 +95,11 @@ export default function Hero({ children }) {
         </div>
       </section>
       <section className="md:col-span-2">
-        <div className="m-8 lg:m-20">
+        <div className="m-8 lg:mt-32">
           <h1 className="mb-8 text-3xl font-bold sm:text-4xl">
             {currentScene.title}
           </h1>
-          <p className="mb-8 text-gray-500">{currentScene.description}</p>
+          <p className="mb-8 text-sm text-gray-500">{currentScene.description}</p>
           <a
             href="#shop"
             className="flex items-center tracking-[.65rem] hover:opacity-50"

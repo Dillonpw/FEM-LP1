@@ -60,20 +60,20 @@ export default function Nav() {
       {/* Desktop Navigation (Visible only on medium and larger screens) */}
       <nav className="absolute left-0 right-0 top-0 z-20 hidden items-center justify-between p-8 lg:flex">
         <div className="flex gap-14">
-          <a href="/" className="text-xl font-bold text-white">
+          <a href="/" className="text-2xl font-bold text-white">
             room
           </a>
           <ul className="flex items-center gap-14">
-            <li className="cursor-pointer text-lg text-white decoration-4 underline-offset-8 hover:underline">
+            <li className="cursor-pointer font-semibold text-white decoration-4 underline-offset-8 hover:underline">
               home
             </li>
-            <li className="cursor-pointer text-lg text-white decoration-4 underline-offset-8 hover:underline">
+            <li className="cursor-pointer font-semibold text-white decoration-4 underline-offset-8 hover:underline">
               shop
             </li>
-            <li className="cursor-pointer text-lg text-white decoration-4 underline-offset-8 hover:underline">
+            <li className="cursor-pointer font-semibold text-white decoration-4 underline-offset-8 hover:underline">
               about
             </li>
-            <li className="cursor-pointer text-lg text-white decoration-4 underline-offset-8 hover:underline">
+            <li className="cursor-pointer font-semibold text-white decoration-4 underline-offset-8 hover:underline">
               contact
             </li>
           </ul>

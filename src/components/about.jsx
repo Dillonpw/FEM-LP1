@@ -1,5 +1,5 @@
-import darkFurnitureImage from '../assets/image-about-dark.jpg'
-import lightFurnitureImage from '../assets/image-about-light.jpg'
+import darkFurnitureImage from "../assets/image-about-dark.jpg";
+import lightFurnitureImage from "../assets/image-about-light.jpg";
 
 export default function About() {
   return (
@@ -13,10 +13,10 @@ export default function About() {
       </div>
 
       <div className="m-8 md:m-10">
-        <h2 className="mb-2 text-lg font-bold uppercase tracking-wider md:mb-2">
+        <h2 className="mb-2 text-lg tracking-[.25rem] font-semibold uppercase md:mb-2">
           About our furniture
         </h2>
-        <p className="text-gray-500">
+        <p className="text-gray-500 text-sm">
           Our multifunctional collection blends design and function to suit your
           individual taste. Make each room unique, or pick a cohesive theme that
           best express your interests and what inspires you. Find the furniture
