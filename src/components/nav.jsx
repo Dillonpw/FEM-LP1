@@ -8,7 +8,7 @@ export default function Nav() {
   };
 
   return (
-    <nav className="sm:hidden relative flex items-center justify-between p-8">
+    <nav className="relative flex items-center justify-between p-8 sm:hidden">
       {!isNavOpen && (
         <>
           <button onClick={toggleNav} className="">
