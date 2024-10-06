@@ -1,10 +1,13 @@
+import darkFurnitureImage from '../assets/image-about-dark.jpg'
+import lightFurnitureImage from '../assets/image-about-light.jpg'
+
 export default function About() {
   return (
     <section className="grid grid-cols-1 md:grid-cols-3">
       <div className="relative h-64 md:h-full">
         <img
-          src="src/images/image-about-dark.jpg"
-          alt="dark furniture"
+          src={darkFurnitureImage}
+          alt="Dark furniture showcasing our collection"
           className="h-full w-full object-cover"
         />
       </div>
@@ -25,8 +28,8 @@ export default function About() {
 
       <div className="relative h-64 md:h-full">
         <img
-          src="src/images/image-about-light.jpg"
-          alt="light furniture"
+          src={lightFurnitureImage}
+          alt="Light furniture showcasing our collection"
           className="h-full w-full object-cover"
         />
       </div>
